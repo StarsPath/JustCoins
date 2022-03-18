@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "justcoins:item/golden_coin_0"
+  },
+  "overrides": [
+    {"predicate": {"justcoins:size": 1}, "model":  "justcoins:item/golden_coin"},
+    {"predicate": {"justcoins:size": 8}, "model":  "justcoins:item/golden_coin1"},
+    {"predicate": {"justcoins:size": 24}, "model":  "justcoins:item/golden_coin2"},
+    {"predicate": {"justcoins:size": 56}, "model":  "justcoins:item/golden_coin3"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "justcoins:item/cash_0"
+  },
+  "overrides": [
+    {"predicate": {"justcoins:size": 1}, "model":  "justcoins:item/cash"},
+    {"predicate": {"justcoins:size": 8}, "model":  "justcoins:item/cash1"},
+    {"predicate": {"justcoins:size": 24}, "model":  "justcoins:item/cash2"},
+    {"predicate": {"justcoins:size": 56}, "model":  "justcoins:item/cash3"}
+  ]
+}
